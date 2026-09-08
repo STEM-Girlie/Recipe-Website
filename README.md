@@ -5,7 +5,6 @@ A simple, responsive recipe website that allows users to browse dishes, view ing
 Live Demo: (https://stem-girlie.github.io/Recipe-Website/)  
 Repository: [https://github.com/STEM-Girlie/Recipe-Website](https://github.com/STEM-Girlie/Recipe-Website)
 
----
 
 ## 📌 **Table of Contents**
 
@@ -20,7 +19,6 @@ Repository: [https://github.com/STEM-Girlie/Recipe-Website](https://github.com/S
 - [Credits](#credits)  
 - [License](#license)
 
----
 
 ## 🧁 **Overview**
 
@@ -39,7 +37,6 @@ To create a simple recipe browsing experience using only vanilla JavaScript, HTM
 - GitHub Pages deployment
 - Working with API's
 
----
 
 ## 🍳 **Features**
 
@@ -50,7 +47,6 @@ To create a simple recipe browsing experience using only vanilla JavaScript, HTM
 - Simple, clean UI  
 - Lightweight and fast
 
----
 
 ## 🛠️ **Tech Stack**
 
@@ -64,7 +60,6 @@ To create a simple recipe browsing experience using only vanilla JavaScript, HTM
 - GitHub Pages (Deployment)  
 - VS Code
 
----
 
 ## 📁 **Project Structure**
 
@@ -75,10 +70,6 @@ Recipe-Website/
 │── script.js
 └── assets/ 
 ```
-
-Files confirmed from your repo: index.html, style.css, script.js 
-
----
 
 ## ⚙️ **Installation**
 
@@ -97,7 +88,6 @@ open index.html
 
 Or simply double‑click **index.html**.
 
----
 
 ## 🍽️ **Usage**
 
@@ -106,17 +96,15 @@ Or simply double‑click **index.html**.
 3. Click a recipe to view ingredients and instructions  
 4. Enjoy cooking!
 
----
 
 ## 🖼️ **Screenshots**
 
-```markdown
+
 ![Homepage](assets/homepage.png)
 ![Favourites](assets/favourites.png)
 ![Save Button](assets/saved.png)
 ![Unsave Button](assets/unsaved.png)
 
-```
 
 ## 🚀 **Future Improvements**
 
@@ -128,14 +116,12 @@ Or simply double‑click **index.html**.
 - Add dark mode  
 - Store recipes in JSON for easier expansion
 
----
 
 ## 👩‍💻 **Credits**
 
 Developer: Nasreen  
 GitHub: `https://github.com/STEM-Girlie` [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2FSTEM-Girlie")
 
----
 
 ## 📄 **License**
 
