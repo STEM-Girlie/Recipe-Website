@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Edu SA Hand", cursive;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #4d5d53, #9eab9a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Edu SA Hand", cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mobile-container {
+  width: 400px;
+  background-color: #fff4e9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px #3333331a;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  margin: 0.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  padding: 0.5rem;
+  margin: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+header input {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #9eab9a;
+  opacity: 70%;
+  color: #ffffff;
+}
+
+button {
+  padding: 0.3rem 0.3rem;
+  margin-left: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #e2924c;
+  background-color: #e7d8c9;
+  border-radius: 5px;
+  border: 0.2px solid #9eab9a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e2924c;
+  color: #ffffff;
+}
+
+.fav-container {
+  background-color: #e7d8c9;
+  border-radius: 3px;
+  padding: 0.2rem 0.3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 200px; /* adjust to your layout */
+  padding-right: 10px; /* prevents content from hiding under scrollbar */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* Scrollbar track */
+.fav-container::-webkit-scrollbar {
+  width: 0.5px;
+  height: 4px;
+  display: none;
+}
+
+.fav-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.fav-meals {
+  list-style-type: none;
+  display: flex;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.fav-meals li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 85px;
+}
+
+.fav-meals li:hover .clear {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.fav-meals li .clear {
+  background-color: transparent;
+  opacity: 0;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  border: none;
+  font-size: 0.8rem;
+}
+.fav-meals li img {
+  border: 2px solid #e2924c1a;
+  box-shadow: 0px 0px 10px 2px #3333333a;
+  object-fit: cover;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fav-meals li span {
+  font-size: 0.8rem;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 75px;
+}
+
+.fav-meals li span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  overflow: visible;
+  white-space: normal;
+}
+
+.random {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.meal {
+  margin: 1.5rem;
+  box-shadow: 0px 0px 10px 2px #3333333a;
+  border-radius: px;
+  overflow: hidden;
+}
+
+.meal-header {
+  position: relative;
+}
+
+.meal-header .random {
+  position: absolute;
+  top: 1rem;
+  background-color: #fff4e9;
+  opacity: 70%;
+  padding: 0.25rem 0.5rem;
+  margin-left: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-radius: 0;
+}
+
+.meal-header img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.meal-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.meal-body h4 {
+  margin: 0;
+}
+
+.meal-body .fav-btn {
+  border: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.meal-body .fav-btn:active {
+  color: #9eab9a;
+}
+
+.meal-body button:hover {
+  background-color: #4d5d53;
+}
+
+.recipe-card-container {
+  position: fixed;
+  default: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-card-content {
+  background-color: #fff4e9;
+  border-radius: 5px;
+  padding: 0 1rem;
+  box-shadow: 0px 0px 10px 2px #3333331a;
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.recipe-card-content h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.recipe-card-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#close-popup {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
