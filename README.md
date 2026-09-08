@@ -1,5 +1,3 @@
----
-
 # 🍽️ **Recipe Website**
 
 A simple, responsive recipe website that allows users to browse dishes, view ingredients, and follow cooking instructions. Built with clean HTML, CSS, and JavaScript, this project demonstrates core front‑end development skills including DOM manipulation, event handling, and UI design.
@@ -143,6 +141,3 @@ GitHub: `https://github.com/STEM-Girlie` [(github.com in Bing)](https://www.bing
 ## 📄 **License**
 
 This project is licensed under the MIT License.
-
----
-
