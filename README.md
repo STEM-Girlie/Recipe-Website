@@ -4,7 +4,7 @@
 
 A simple, responsive recipe website that allows users to browse dishes, view ingredients, and follow cooking instructions. Built with clean HTML, CSS, and JavaScript, this project demonstrates core front‑end development skills including DOM manipulation, event handling, and UI design.
 
-Live Demo: *(Add your GitHub Pages link here — your repo shows a recent GitHub Pages deployment)*   
+Live Demo: (https://stem-girlie.github.io/Recipe-Website/)  
 Repository: [https://github.com/STEM-Girlie/Recipe-Website](https://github.com/STEM-Girlie/Recipe-Website)
 
 ---
