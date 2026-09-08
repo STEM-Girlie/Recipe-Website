@@ -73,7 +73,7 @@ Recipe-Website/
 │── index.html
 │── style.css
 │── script.js
-└── assets/ (optional if you add images)
+└── assets/ 
 ```
 
 Files confirmed from your repo: index.html, style.css, script.js 
@@ -110,18 +110,13 @@ Or simply double‑click **index.html**.
 
 ## 🖼️ **Screenshots**
 
-*(Add images inside an `/assets` folder and reference them here)*
-
 ```markdown
 ![Homepage](assets/homepage.png)
 ![Favourites](assets/favourites.png)
 ![Save Button](assets/saved.png)
 ![Unsave Button](assets/unsaved.png)
 
-
 ```
-
----
 
 ## 🚀 **Future Improvements**
 
