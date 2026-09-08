@@ -113,8 +113,12 @@ Or simply double‑click **index.html**.
 *(Add images inside an `/assets` folder and reference them here)*
 
 ```markdown
-![Homepage](assets/home.png)
-![Recipe Page](assets/recipe.png)
+![Homepage](assets/homepage.png)
+![Favourites](assets/favourites.png)
+![Save Button](assets/saved.png)
+![Unsave Button](assets/unsaved.png)
+
+
 ```
 
 ---
